@@ -36,6 +36,10 @@ var registry = []knownProvider{
 		Info:     models.ProviderInfo{Name: "DigitalOcean", Website: "https://www.digitalocean.com/products/dns"},
 	},
 	{
+		Keywords: []string{"corenzydns"},
+		Info:     models.ProviderInfo{Name: "Corenzy DNS", Website: "https://corenzy.com/dns"},
+	},
+	{
 		Keywords: []string{"linode", "akamai"},
 		Info:     models.ProviderInfo{Name: "Akamai / Linode", Website: "https://www.linode.com"},
 	},
