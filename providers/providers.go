@@ -291,6 +291,48 @@ var registry = []knownProvider{
 		Keywords: []string{"natro"},
 		Info:     models.ProviderInfo{Name: "Natro", Website: "https://www.natro.com"},
 	},
+
+	// --- Additional DNS Services ---
+	{
+		Keywords: []string{"cloudns", "clouddns"},
+		Info:     models.ProviderInfo{Name: "ClouDNS", Website: "https://www.cloudns.net"},
+	},
+	{
+		Keywords: []string{"quad9"},
+		Info:     models.ProviderInfo{Name: "Quad9", Website: "https://www.quad9.net"},
+	},
+	{
+		Keywords: []string{"opendns", "umbrella"},
+		Info:     models.ProviderInfo{Name: "Cisco OpenDNS", Website: "https://www.opendns.com"},
+	},
+	{
+		Keywords: []string{"gcore"},
+		Info:     models.ProviderInfo{Name: "Gcore DNS", Website: "https://gcore.com/dns"},
+	},
+	{
+		Keywords: []string{"buddyns"},
+		Info:     models.ProviderInfo{Name: "BuddyNS", Website: "https://www.buddyns.com"},
+	},
+	{
+		Keywords: []string{"zilore"},
+		Info:     models.ProviderInfo{Name: "Zilore", Website: "https://zilore.com"},
+	},
+	{
+		Keywords: []string{"zoneedit"},
+		Info:     models.ProviderInfo{Name: "ZoneEdit", Website: "https://www.zoneedit.com"},
+	},
+	{
+		Keywords: []string{"entrydns"},
+		Info:     models.ProviderInfo{Name: "EntryDNS", Website: "https://entrydns.net"},
+	},
+	{
+		Keywords: []string{"safedns"},
+		Info:     models.ProviderInfo{Name: "SafeDNS", Website: "https://www.safedns.com"},
+	},
+	{
+		Keywords: []string{"cleanbrowsing"},
+		Info:     models.ProviderInfo{Name: "CleanBrowsing", Website: "https://cleanbrowsing.org"},
+	},
 }
 
 // Detect identifies the DNS provider from the given nameservers.
