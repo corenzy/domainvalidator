@@ -27,6 +27,7 @@ func main() {
 		return c.JSON(fiber.Map{
 			"name":    "Domain Validator API",
 			"version": "1.0.0",
+			"author": "CorenzyTeam <contact@nego.one>"
 			"lib":  "com.corenzy.domainvalidator"
 		})
 	})
